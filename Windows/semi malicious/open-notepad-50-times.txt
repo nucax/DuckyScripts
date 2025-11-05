@@ -1,0 +1,13 @@
+REM Open Notepad 50 times
+DELAY 1500
+DEFAULT_DELAY 50
+
+REM First Notepad (these 5 commands will be repeated)
+GUI r
+DELAY 300
+STRING notepad
+ENTER
+DELAY 700
+
+REM Repeat the previous 5 commands two more times (total = 3 launches)
+REPEAT 49 5
