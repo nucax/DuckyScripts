@@ -1,0 +1,31 @@
+REM Opens Notepad and explains how the Rubber Ducky works
+DELAY 1000
+GUI r
+DELAY 300
+STRING notepad
+ENTER
+DELAY 600
+
+REM Paragraph 1
+STRING The USB Rubber Ducky is a keystroke-injection device that emulates a USB keyboard.
+ENTER
+DELAY 200
+STRING When plugged into a computer it sends scripted keystrokes very quickly, allowing commands to be executed automatically.
+ENTER
+DELAY 300
+
+REM Paragraph 2
+STRING Scripts are written in Duckyscript (a simple, human-readable language). Duckyscript files are encoded into an inject.bin payload using the DuckEncoder.
+ENTER
+DELAY 200
+STRING The inject.bin payload is placed on the Ducky's microSD card; when inserted the Ducky presents itself as a keyboard and types the payload.
+ENTER
+DELAY 300
+
+REM Paragraph 3 (notes)
+STRING Important: the Ducky uses keyboard events, so layout (US/UK/etc.) and timing matter. Use the correct language flag when encoding and add DELAYs on slow machines.
+ENTER
+DELAY 200
+
+STRING Always test in a safe environment and only on devices you own or are authorized to test.
+ENTER
