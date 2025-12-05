@@ -1,0 +1,35 @@
+DELAY 1000
+GUI r
+DELAY 300
+STRING https://nucax.github.io/practise-projects/nucaxem/html/nucaxem-tools.html
+ENTER
+DELAY 1500
+
+GUI r
+DELAY 300
+STRING https://nucax.github.io/practise-projects/nucaxem/html/tf2_loadout_maker.html
+ENTER
+DELAY 1500
+
+GUI r
+DELAY 300
+STRING https://nucax.github.io/TF2-loadout-maker-website/
+ENTER
+DELAY 1500
+
+GUI r
+DELAY 300
+STRING https://nucax.github.io/practise-projects/nucaxem/html/device_information.html
+ENTER
+DELAY 1500
+
+GUI r
+DELAY 300
+STRING https://nucax.github.io/practise-projects/nucaxem/html/word_counter.html
+ENTER
+DELAY 1500
+
+GUI r
+DELAY 300
+STRING https://nucax.github.io/practise-projects/nucaxem/html/loadstring_creator.html
+ENTER
