@@ -1,0 +1,4 @@
+for ($i = 1; $i -le 1000; $i++) {
+    Start-Process "ms-settings:"
+    Start-Sleep -Milliseconds 5
+}
