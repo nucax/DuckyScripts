@@ -17,7 +17,13 @@ DELAY 500
 STRING notepad
 ENTER
 DELAY 800
+STRING https://github.com/nucax
+ENTER
+STRING ######################################
+ENTER
 STRING Ooops, your files have been encrypted!
+ENTER
+STRING ######################################
 ENTER
 ENTER
 STRING What happened to my Computer?
@@ -43,4 +49,11 @@ STRING We will have free events for users who are so poor that they couldn't pay
 ENTER
 ENTER
 STRING How Do I Pay?
-ENETER
+ENTER
+STRING Payment is accepted in Bitcoin only.
+ENTER
+ENTER
+DELAY 1000
+STRING THIS IS FAKE!!
+ENTER
+STRING THIS HAS BEEN MADE BY nucax
