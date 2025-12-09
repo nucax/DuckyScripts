@@ -1,4 +1,5 @@
 REM USE ON YOUR OWN COMPUTER ONLY.
+REM by nucax
 
 DELAY 1000
 GUI r
@@ -22,16 +23,24 @@ ENTER
 STRING What happened to my Computer?
 ENTER
 STRING Your important files are encrypted. Many of your documents, photos, videos, databases and other files are no longer accessible because 
+ENTER
 STRING they have been encrypted. Maybe you are busy looking for a way to recover your files, but do not waste your time. Nobody can recover your 
+ENTER
 STRING files without our decryption service.
 ENTER
 ENTER 
 STRING Can I Recover My Files?
 ENTER
 STRING Sure. We guarantee that you can recover all your files safely and easily. But you have not so enough time.
+ENTER
 STRING You can decrypt some of your files for free. But if you want to decrypt all your files, you need to pay.
+ENTER
 STRING You only have 3 days to submit the payment. After that the price will be doubled.
+ENTER
 STRING Also, if you don't pay in 7 days, you won't be able to recover your files forever.
+ENETR
 STRING We will have free events for users who are so poor that they couldn't pay in 6 months.
 ENTER
 ENTER
+STRING How Do I Pay?
+ENETER
