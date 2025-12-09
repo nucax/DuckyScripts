@@ -1,0 +1,37 @@
+REM USE ON YOUR OWN COMPUTER ONLY.
+
+DELAY 1000
+GUI r
+DELAY 300
+STRING powershell -w hidden -nop
+ENTER
+DELAY 500
+
+STRING $desktop = [Environment]::GetFolderPath('Desktop')
+ENTER
+STRING 1..20 | ForEach-Object { New-Item -ItemType Directory -Path "$desktop\Folder_$([guid]::NewGuid().ToString().Substring(0,6))" }
+ENTER
+DELAY 500
+
+STRING notepad
+ENTER
+DELAY 800
+STRING Ooops, your files have been encrypted!
+ENTER
+ENTER
+STRING What happened to my Computer?
+ENTER
+STRING Your important files are encrypted. Many of your documents, photos, videos, databases and other files are no longer accessible because 
+STRING they have been encrypted. Maybe you are busy looking for a way to recover your files, but do not waste your time. Nobody can recover your 
+STRING files without our decryption service.
+ENTER
+ENTER 
+STRING Can I Recover My Files?
+ENTER
+STRING Sure. We guarantee that you can recover all your files safely and easily. But you have not so enough time.
+STRING You can decrypt some of your files for free. But if you want to decrypt all your files, you need to pay.
+STRING You only have 3 days to submit the payment. After that the price will be doubled.
+STRING Also, if you don't pay in 7 days, you won't be able to recover your files forever.
+STRING We will have free events for users who are so poor that they couldn't pay in 6 months.
+ENTER
+ENTER
