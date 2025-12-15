@@ -1,0 +1,18 @@
+DELAY 1000
+GUI r
+DELAY 300
+STRING notepad
+ENTER
+DELAY 600
+STRING Never gonna give you up
+ENTER
+STRING Never gonna let you down
+ENTER
+STRING Never gonna run around and desert you
+ENTER
+STRING Never gonna make you cry
+ENTER
+STRING Never gonna say goodbye
+ENTER
+STRING Never gonna tell a lie and hurt you 
+ALT F4
