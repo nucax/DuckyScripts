@@ -1,0 +1,8 @@
+DELAY 1500
+GUI r
+DELAY 500
+STRING https://nucax.github.io/DuckyScripts/external/websites/fakevirusterminal.html
+DELAY 300
+ENTER
+DELAY 3000
+F11
