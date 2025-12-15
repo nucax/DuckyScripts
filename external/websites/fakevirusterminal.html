@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>terminal</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #000;
+      color: #00ff66;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
+      overflow: hidden;
+      cursor: none;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        to bottom,
+        rgba(0,255,100,0.04) 0px,
+        rgba(0,255,100,0.04) 1px,
+        rgba(0,0,0,0) 2px,
+        rgba(0,0,0,0) 4px
+      );
+      pointer-events: none;
+      opacity: 0.25;
+    }
+
+    .terminal {
+      padding: 18px;
+      height: 100%;
+      box-sizing: border-box;
+      white-space: pre-wrap;
+      line-height: 1.25;
+      font-size: 13px;
+      text-shadow: 0 0 6px rgba(0,255,120,0.6);
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 8px;
+      height: 1em;
+      background: #00ff66;
+      margin-left: 2px;
+      animation: blink 1s steps(1) infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal" id="term"></div><span class="cursor"></span>
+
+  <script>
+    document.addEventListener('contextmenu', e => e.preventDefault());
+
+    const term = document.getElementById('term');
+
+    const verbs = [
+      'initializing', 'enumerating', 'mapping', 'injecting', 'linking', 'resolving',
+      'synchronizing', 'probing', 'decoding', 'bridging', 'authenticating', 'allocating',
+      'verifying', 'patching', 'indexing'
+    ];
+
+    const objects = [
+      'memory blocks', 'secure channels', 'hash tables', 'entropy pool', 'kernel vectors',
+      'access tokens', 'permission layers', 'runtime hooks', 'process handles', 'I/O buffers',
+      'virtual nodes', 'control frames'
+    ];
+
+    const statuses = [
+      'OK', 'OK', 'OK', 'OK', 'WARN', 'RETRY', 'SYNC', 'BYPASS'
+    ];
+
+    function hex(len) {
+      const chars = 'abcdef0123456789';
+      let out = '0x';
+      for (let i = 0; i < len; i++) out += chars[Math.floor(Math.random() * chars.length)];
+      return out;
+    }
+
+    function percent() {
+      return (Math.random() * 100).toFixed(2) + '%';
+    }
+
+    function line() {
+      const time = new Date().toISOString().split('T')[1].slice(0, 8);
+      const v = verbs[Math.floor(Math.random() * verbs.length)];
+      const o = objects[Math.floor(Math.random() * objects.length)];
+      const s = statuses[Math.floor(Math.random() * statuses.length)];
+      const p = percent();
+      const h = hex(6);
+
+      const formats = [
+        `[${time}] ${v} ${o} ... ${s}`,
+        `[${time}] ${v} ${o} (${p})`,
+        `[${time}] task ${h} -> ${s}`,
+        `[${time}] progress ${p}`,
+        `[${time}] checksum ${h} verified`,
+        `[${time}] resolving dependency ${h}`
+      ];
+
+      return formats[Math.floor(Math.random() * formats.length)];
+    }
+
+    function spam() {
+      const count = Math.floor(Math.random() * 6) + 2;
+      for (let i = 0; i < count; i++) {
+        term.textContent += line() + '\n';
+      }
+
+      if (term.textContent.length > 12000) {
+        term.textContent = term.textContent.slice(-8000);
+      }
+    }
+
+    setInterval(spam, 120);
+
+    // hidden exit
+    let escTimer = null;
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !escTimer) {
+        escTimer = setTimeout(() => {
+          document.body.innerHTML = '<div style="display:grid;place-items:center;height:100%;color:#00ff66;font-family:system-ui">session closed</div>';
+        }, 2000);
+      }
+    });
+
+    document.addEventListener('keyup', e => {
+      if (e.key === 'Escape') {
+        clearTimeout(escTimer);
+        escTimer = null;
+      }
+    });
+  </script>
+</body>
+</html>
