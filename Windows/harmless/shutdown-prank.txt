@@ -1,0 +1,6 @@
+REM Fake Shutdown Prank
+DELAY 1000
+GUI r
+DELAY 400
+STRING shutdown -s -t 60 -c "Your PC is getting pwned... just kidding! To abort, open cmd and type shutdown -a"
+ENTER
