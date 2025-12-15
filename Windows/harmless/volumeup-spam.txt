@@ -2,5 +2,5 @@ DELAY 500
 REM Loop to turn up volume for ~20 seconds
 REPEAT 1000000
   MEDIA_VOLUME_UP
-  DELAY 500
+  DELAY 50
 EN
