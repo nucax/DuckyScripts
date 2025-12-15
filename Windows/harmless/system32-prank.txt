@@ -1,0 +1,2 @@
+This script will pretend to delete System32.
+This is a harmless script.

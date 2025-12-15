@@ -1,0 +1,2 @@
+This script will remotely wipe your device.
+This is a malicious script.

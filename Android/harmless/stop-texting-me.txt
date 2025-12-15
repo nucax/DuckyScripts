@@ -1,0 +1,2 @@
+This script will send a message to a person to stop texting you.
+This is a harmless script.

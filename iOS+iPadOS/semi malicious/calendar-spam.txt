@@ -1,0 +1,2 @@
+This script will spam your calendar with fake events.
+This is a harmless script.

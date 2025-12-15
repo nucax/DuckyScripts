@@ -1,0 +1,2 @@
+This script will perform a denial of service attack on your WiFi network.
+This is a semi malicious script.

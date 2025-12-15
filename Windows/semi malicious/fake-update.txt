@@ -1,0 +1,2 @@
+This script will create a fake Windows update screen.
+This is a semi malicious script.

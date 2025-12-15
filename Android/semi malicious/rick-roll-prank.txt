@@ -1,0 +1,2 @@
+This script will rick roll you.
+This is a semi malicious script.
