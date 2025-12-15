@@ -1,0 +1,8 @@
+DELAY 2500
+GUI SPACE
+DELAY 350
+STRING Reminders
+ENTER
+DELAY 1200
+STRING Create a new reminder
+ENTER
