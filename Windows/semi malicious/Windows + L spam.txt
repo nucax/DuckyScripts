@@ -1,0 +1,8 @@
+REM This script continuously locks the PC in an infinite loop.  
+
+DELAY 500  
+
+REPEAT:  
+GUI l  
+DELAY 1000  
+GOTO REPEAT
