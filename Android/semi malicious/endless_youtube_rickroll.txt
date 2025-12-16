@@ -1,0 +1,10 @@
+DELAY 1500
+GUI
+DELAY 600
+STRING Chrome
+ENTER
+DELAY 1500
+CTRL l
+DELAY 300
+STRING https://www.youtube.com/embed/dQw4w9WgXcQ?playlist=dQw4w9WgXcQ&loop=1
+ENTER

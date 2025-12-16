@@ -1,0 +1,27 @@
+REM WARNING: This script is brittle and may not work on all devices.
+DELAY 2500
+GUI
+DELAY 1000
+STRING Settings
+ENTER
+DELAY 2000
+REM Navigate to the search bar (may vary by device)
+TAB
+TAB
+TAB
+ENTER
+DELAY 1000
+STRING Font size
+ENTER
+DELAY 2000
+REM Select the setting
+TAB
+ENTER
+DELAY 1000
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+ENTER
