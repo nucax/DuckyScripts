@@ -1,0 +1,12 @@
+REM Increased delays for stability
+DELAY 2500
+GUI
+DELAY 1000
+STRING Twitter
+ENTER
+DELAY 3000
+STRING I love pineapples on my pizza!
+DELAY 1000
+TAB
+TAB
+ENTER

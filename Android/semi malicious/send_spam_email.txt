@@ -1,0 +1,25 @@
+REM WARNING: This script is brittle and may not work on all devices.
+DELAY 2500
+GUI
+DELAY 1000
+STRING Email
+ENTER
+DELAY 2000
+REM Navigate to the "Compose" button (may vary by device)
+TAB
+TAB
+ENTER
+DELAY 1000
+STRING spam@example.com
+ENTER
+DELAY 1000
+STRING You've won a prize!
+ENTER
+DELAY 1000
+STRING Click here to claim it: https://example.com/spam
+ENTER
+DELAY 1000
+REM Navigate to the "Send" button
+TAB
+TAB
+ENTER

@@ -1,0 +1,11 @@
+DELAY 1500
+GUI
+DELAY 600
+STRING Facebook
+ENTER
+DELAY 2000
+STRING https://www.youtube.com/watch?v=3URtTIdnXIk
+DELAY 500
+TAB
+TAB
+ENTER

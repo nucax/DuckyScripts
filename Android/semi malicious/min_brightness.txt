@@ -1,0 +1,31 @@
+REM WARNING: This script is brittle and may not work on all devices.
+DELAY 2500
+GUI
+DELAY 1000
+STRING Settings
+ENTER
+DELAY 2000
+REM Navigate to the search bar (may vary by device)
+TAB
+TAB
+TAB
+ENTER
+DELAY 1000
+STRING Brightness
+ENTER
+DELAY 2000
+REM Select the setting
+TAB
+ENTER
+DELAY 1000
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+ENTER

