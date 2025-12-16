@@ -1,0 +1,261 @@
+REM ===============================
+REM GIANT WINDOWS DUCKYSCRIPT DEMO
+REM ===============================
+
+DEFAULT_DELAY 60
+DELAY 1000
+
+REM -------------------------------
+REM SECTION 1: INTRO / SUSPENSE
+REM -------------------------------
+GUI r
+DELAY 300
+STRING notepad
+ENTER
+DELAY 600
+
+STRING Initializing system interface...
+ENTER
+DELAY 500
+STRING Loading modules...
+ENTER
+DELAY 500
+STRING Please wait.
+ENTER
+DELAY 400
+STRING .
+ENTER
+STRING ..
+ENTER
+STRING ...
+ENTER
+DELAY 800
+
+REM -------------------------------
+REM SECTION 2: FAKE BOOT LOGS
+REM -------------------------------
+STRING [OK] Kernel loaded
+ENTER
+STRING [OK] Memory mapped
+ENTER
+STRING [OK] Drivers initialized
+ENTER
+STRING [WARN] Latency spike detected
+ENTER
+STRING [OK] Network stable
+ENTER
+DELAY 700
+
+REM -------------------------------
+REM SECTION 3: CAPS LOCK CHAOS
+REM -------------------------------
+CAPSLOCK
+STRING tHIS LINE LOOKS WEIRD
+ENTER
+CAPSLOCK
+STRING This one is better.
+ENTER
+DELAY 500
+
+REM -------------------------------
+REM SECTION 4: ASCII ART DUCK
+REM -------------------------------
+STRING      __
+ENTER
+STRING (___()'`;
+ENTER
+STRING /,    /`
+ENTER
+STRING \\"--\\
+ENTER
+DELAY 800
+
+REM -------------------------------
+REM SECTION 5: FAKE SYSTEM SCAN
+REM -------------------------------
+STRING Starting Windows Security Scan...
+ENTER
+DELAY 500
+
+STRING Scanning system files... [#####-----] 45%
+ENTER
+DELAY 400
+STRING Scanning registry...... [#######---] 72%
+ENTER
+DELAY 400
+STRING Scanning memory......... [#########-] 91%
+ENTER
+DELAY 400
+STRING Scan complete. No threats found.
+ENTER
+DELAY 700
+
+REM -------------------------------
+REM SECTION 6: DRAMATIC COUNTDOWN
+REM -------------------------------
+STRING Executing final phase in:
+ENTER
+STRING 5
+ENTER
+DELAY 500
+STRING 4
+ENTER
+DELAY 500
+STRING 3
+ENTER
+DELAY 500
+STRING 2
+ENTER
+DELAY 500
+STRING 1
+ENTER
+DELAY 700
+
+REM -------------------------------
+REM SECTION 7: JUST KIDDING
+REM -------------------------------
+STRING Just kidding.
+ENTER
+STRING Nothing is happening.
+ENTER
+STRING Or is it?
+ENTER
+DELAY 800
+
+REM -------------------------------
+REM SECTION 8: VOLUME UP
+REM -------------------------------
+VOLUMEUP
+DELAY 100
+VOLUMEUP
+DELAY 100
+VOLUMEUP
+DELAY 100
+VOLUMEUP
+DELAY 100
+VOLUMEUP
+DELAY 400
+
+REM -------------------------------
+REM SECTION 9: OPEN CALCULATOR
+REM -------------------------------
+GUI r
+DELAY 300
+STRING calc
+ENTER
+DELAY 600
+ALT F4
+
+REM -------------------------------
+REM SECTION 10: FILE EXPLORER FUN
+REM -------------------------------
+GUI e
+DELAY 600
+CTRL l
+DELAY 200
+STRING Desktop
+ENTER
+DELAY 500
+
+REM -------------------------------
+REM SECTION 11: CREATE FOLDERS
+REM -------------------------------
+SHIFT F10
+DELAY 200
+STRING w
+DELAY 200
+STRING f
+DELAY 300
+STRING definitely_not_a_virus
+ENTER
+DELAY 400
+
+SHIFT F10
+DELAY 200
+STRING w
+DELAY 200
+STRING f
+DELAY 300
+STRING DO_NOT_OPEN
+ENTER
+DELAY 400
+
+SHIFT F10
+DELAY 200
+STRING w
+DELAY 200
+STRING f
+DELAY 300
+STRING quack_quack
+ENTER
+DELAY 600
+
+REM -------------------------------
+REM SECTION 12: BROWSER PRANK
+REM -------------------------------
+GUI r
+DELAY 300
+STRING https://nucax.github.io/DuckyScripts/external/websites/fakevirusterminal.html
+ENTER
+DELAY 2000
+F11
+DELAY 800
+
+CTRL TAB
+DELAY 200
+CTRL TAB
+DELAY 200
+
+REM -------------------------------
+REM SECTION 13: ZOOM CHAOS
+REM -------------------------------
+CTRL PLUS
+DELAY 150
+CTRL PLUS
+DELAY 150
+CTRL MINUS
+DELAY 150
+CTRL MINUS
+DELAY 300
+
+REM -------------------------------
+REM SECTION 14: BACK TO NOTEPAD
+REM -------------------------------
+ALT TAB
+DELAY 500
+
+STRING ---------------------------------
+ENTER
+STRING FINAL MESSAGE
+ENTER
+STRING ---------------------------------
+ENTER
+DELAY 400
+
+STRING This computer was controlled
+ENTER
+STRING by a USB keyboard.
+ENTER
+DELAY 500
+
+STRING You have been quacked.
+ENTER
+DELAY 800
+
+REM -------------------------------
+REM SECTION 15: GRAND FINALE
+REM -------------------------------
+STRING Press any key to continue...
+ENTER
+DELAY 1000
+
+STRING Just kidding again.
+ENTER
+STRING Have a nice day :)
+ENTER
+DELAY 800
+
+REM -------------------------------
+REM CLEAN EXIT
+REM -------------------------------
+ALT F4
