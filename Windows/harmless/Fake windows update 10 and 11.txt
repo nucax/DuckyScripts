@@ -1,0 +1,25 @@
+REM Fake Windows Update (Full screen)  
+
+GUI r  
+DELAY 500  
+STRING msedge.exe  
+ENTER  
+DELAY 2000  
+
+REM Detect Windows version and open the right fake update  
+STRING wmic os get Caption  
+ENTER  
+DELAY 1000  
+STRING if exist C:\Windows\System32\Windows10.txt start msedge.exe https://fakeupdate.net/win10/  
+ENTER  
+STRING if exist C:\Windows\System32\Windows11.txt start msedge.exe https://fakeupdate.net/win11/  
+ENTER  
+
+DELAY 2000  
+F11  
+
+REM Max volume  
+REPEAT 20:  
+VOLUMEUP  
+DELAY 200  
+GOTO REPEAT

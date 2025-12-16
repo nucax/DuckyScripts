@@ -1,0 +1,16 @@
+REM Opens YouTube Rickroll and sets volume to max  
+
+GUI r  
+DELAY 500  
+STRING msedge.exe  
+ENTER  
+DELAY 2000  
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ  
+ENTER  
+DELAY 3000  
+
+REM Increase volume to 100%  
+REPEAT 20:  
+VOLUMEUP  
+DELAY 200  
+GOTO REPEAT

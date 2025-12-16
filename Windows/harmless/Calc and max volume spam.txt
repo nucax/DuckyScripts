@@ -1,0 +1,11 @@
+REM Infinite calculator spam and max volume  
+
+REPEAT:  
+VOLUMEUP  
+DELAY 200  
+GUI r  
+DELAY 500  
+STRING calc  
+ENTER  
+DELAY 500  
+GOTO REPEAT
