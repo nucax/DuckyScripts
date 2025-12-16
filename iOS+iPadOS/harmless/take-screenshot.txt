@@ -1,0 +1,3 @@
+REM Take a screenshot
+DELAY 2500
+GUI SHIFT 3
