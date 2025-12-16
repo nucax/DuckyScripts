@@ -1,0 +1,7 @@
+REM Open the Voice Memos app
+DELAY 2500
+GUI SPACE
+DELAY 1000
+STRING Voice Memos
+DELAY 1000
+ENTER

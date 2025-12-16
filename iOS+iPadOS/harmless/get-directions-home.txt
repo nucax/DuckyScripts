@@ -1,0 +1,11 @@
+REM Get directions home in Maps
+DELAY 2500
+GUI SPACE
+DELAY 1000
+STRING Maps
+DELAY 1000
+ENTER
+DELAY 2000
+STRING Directions to home
+DELAY 1000
+ENTER

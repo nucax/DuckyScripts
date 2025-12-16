@@ -1,0 +1,11 @@
+REM Translate "Hello" to Spanish
+DELAY 2500
+GUI SPACE
+DELAY 1000
+STRING Translate
+DELAY 1000
+ENTER
+DELAY 2000
+STRING Translate Hello to Spanish
+DELAY 1000
+ENTER

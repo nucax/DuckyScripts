@@ -1,0 +1,11 @@
+REM Show trending searches in the App Store
+DELAY 2500
+GUI SPACE
+DELAY 1000
+STRING App Store
+DELAY 1000
+ENTER
+DELAY 2000
+STRING Trending Searches
+DELAY 1000
+ENTER

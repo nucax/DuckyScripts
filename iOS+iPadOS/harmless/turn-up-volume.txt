@@ -1,0 +1,3 @@
+REM Turn up the volume
+DELAY 2500
+VOLUMEUP
