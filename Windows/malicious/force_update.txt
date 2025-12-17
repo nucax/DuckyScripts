@@ -1,0 +1,12 @@
+REM Fake Windows Update
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell
+DELAY 500
+CONTROL-SHIFT ENTER
+DELAY 1000
+ALT y
+DELAY 1000
+STRING "Start-Process powershell -ArgumentList '-Command \"& {[System.Reflection.Assembly]::LoadWithPartialName(''System.Windows.Forms'');[System.Windows.Forms.MessageBox]::Show(''Updating Windows... Do not turn off your computer.'', ''Windows Update'', 0, [System.Windows.Forms.MessageBoxIcon]::Information)}'""
+ENTER

