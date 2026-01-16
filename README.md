@@ -8,4 +8,4 @@ If not, credit is provided.
 These scripts are for educational purposes only. I am not responsible for any damage you cause with these scripts.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
